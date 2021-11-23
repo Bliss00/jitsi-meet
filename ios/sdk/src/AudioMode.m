@@ -112,7 +112,7 @@ RCT_EXPORT_MODULE();
         earpieceConfig.mode = AVAudioSessionModeVoiceChat;
 
         // Set defaultConfig to earpieceConfig
-        defaultConfig = earpieceConfig
+        defaultConfig = earpieceConfig;
         
         forceSpeaker = NO;
         forceEarpiece = NO;
